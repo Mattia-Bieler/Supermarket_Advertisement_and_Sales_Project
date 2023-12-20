@@ -10,3 +10,4 @@ The formula, =YEAR(NOW())-[@[Year_Birth]], generated the customer ages. However,
 As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for ‘NULL’ values and duplicates, which did not exist. To combine both files, I used ‘JOIN’ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found above. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
 
 ### Dashboard Design and Development
+![Dashboard](https://github.com/Mattia-Bieler/Supermarket_Advertisement_and_Sales_Project/assets/132078605/0393f0c4-bb26-4b62-8861-b2aa06b98ab5) 
