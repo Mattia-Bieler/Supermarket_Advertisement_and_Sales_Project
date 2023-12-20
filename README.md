@@ -1,0 +1,3 @@
+# Background 
+
+The intention behind this project is to explore, answer and provide suggestions for further analysis for 2Market’s business problem: its difficulty in understanding its customers. In particular, the customer demographics, the effectiveness of different advertising channels, its best-selling products and whether these products differ based on demographics. Using the ‘5 Whys’ framework, this business problem results from the neglect of strengthening a data-driven decision-making culture within 2Market. I will also explore what the average spend per country is, and how customer’s education affects social media effectiveness and product popularity. 
