@@ -43,7 +43,7 @@ ON md."ID" = ad."ID"
 GROUP BY md."Marital_Status"
 ORDER BY md."Marital_Status" ASC;
 
-     [Total SPEND PER PRODUCT PER COUNTRY WITH SOCIAL MEDIA EFFECTIVENESS]
+     [TOTAL SPEND PER PRODUCT PER COUNTRY WITH SOCIAL MEDIA EFFECTIVENESS]
 SELECT md."Country", SUM(md."AmtLiq") AS "Total AmtLiq Spend", 
 SUM(md."AmtVege") AS "Total AmtVege Spend", SUM (md."AmtNonVeg") AS "Total AmtNonVeg Spend", 
 SUM(md."AmtPes") AS "Total AmtPes Spend", SUM(md."AmtChocolates") AS "Total AmtChocolates Spend", 
