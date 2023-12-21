@@ -21,6 +21,7 @@ Due to these parameters, I added dynamic titles, indicating which parameter opti
 
 ## Patterns, Trends, and Insights
 ![Table](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/cb7ce358-3900-41cf-aa0b-f51885ea9e7f)
+
 ![Social Media All](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/15c1e78d-b4a0-41ab-8675-d5955eead6c0)
 
 An interesting insight is that although Spain has the highest total spend by over three times the next country, Saudi Arabia, five countries have a higher average spend per customer than Spain. Another important insight is that the effectiveness of each social media platform is similar within each country, education type and marital status. This illustrates that 2Market should focus advert campaigns across Facebook, Instagram, and Twitter. However, Instagram and Twitter are generally more successful, which is especially the case for ‘Marial Status’, where Facebook is the least successful for each marital status. For ‘Education’, Facebook is the least successful for ‘Master’ and ‘PhD’, as well as joint bottom with Twitter for ‘Graduation’. Furthermore, as mentioned above, countries with a high spend per product also had more successful social media conversions. However, this does not factor in the number of customers per country. Calculating the success rate is something for further exploration. This can be done by using ‘Count_success’ in the marketing_data file. 
