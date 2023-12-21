@@ -25,9 +25,9 @@ An interesting insight is that although Spain has the highest total spend by ove
 
 
 ![Country](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/12347b2f-4b47-489b-8194-ed141d0cdef8)
-![Social Media](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/1e802866-45b8-46d5-acdd-faeac11b47cf)
 ![Education](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/a81fc575-a393-4a18-8f04-232fa5d3a415)
 ![Marital Status](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/5f52406c-9f0d-41c0-b8a4-3e0f31c65b38)
+![Social Media](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/1e802866-45b8-46d5-acdd-faeac11b47cf)
 
 Another important insight is that the effectiveness of each social media platform is similar within each country, education type and marital status. This illustrates that 2Market should focus advert campaigns across Facebook, Instagram, and Twitter. However, Instagram and Twitter are generally more successful, which is especially the case for ‘Marial Status’, where Facebook is the least successful for each marital status. For ‘Education’, Facebook is the least successful for ‘Master’ and ‘PhD’, as well as joint bottom with Twitter for ‘Graduation’. Furthermore, as mentioned above, countries with a high spend per product also had more successful social media conversions. However, this does not factor in the number of customers per country. Calculating the success rate is something for further exploration. This can be done by using ‘Count_success’ in the marketing_data file. 
 
