@@ -23,6 +23,7 @@ Due to these parameters, I added dynamic titles, indicating which parameter opti
 
 An interesting insight is that although Spain has the highest total spend by over three times the next country, Saudi Arabia, five countries have a higher average spend per customer than Spain.
 
+
 ![Country](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/12347b2f-4b47-489b-8194-ed141d0cdef8)
 ![Social Media](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/1e802866-45b8-46d5-acdd-faeac11b47cf)
 ![Education](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/a81fc575-a393-4a18-8f04-232fa5d3a415)
