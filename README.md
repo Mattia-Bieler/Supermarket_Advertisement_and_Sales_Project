@@ -20,6 +20,7 @@ Due to these parameters, I added dynamic titles, indicating which parameter opti
 
 ## Patterns, Trends, and Insights
 ![table](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/b22b6d7d-6867-4c94-b522-1622c3d674bf)
+
 ![Country](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/12347b2f-4b47-489b-8194-ed141d0cdef8)
 ![Education](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/a81fc575-a393-4a18-8f04-232fa5d3a415)
 ![Marital Status](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/5f52406c-9f0d-41c0-b8a4-3e0f31c65b38)
