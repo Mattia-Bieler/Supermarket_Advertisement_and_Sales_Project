@@ -25,6 +25,7 @@ An interesting insight is that although Spain has the highest total spend by ove
 
 ![Social Media](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/1e802866-45b8-46d5-acdd-faeac11b47cf)
 ![Country](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/12347b2f-4b47-489b-8194-ed141d0cdef8)
+
 ![Education](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/a81fc575-a393-4a18-8f04-232fa5d3a415)
 ![Marital Status](https://github.com/Mattia-Bieler/LSE_Data_Analytics_Career_Accelerator/assets/132078605/5f52406c-9f0d-41c0-b8a4-3e0f31c65b38)
 
