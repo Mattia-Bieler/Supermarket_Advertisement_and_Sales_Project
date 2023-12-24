@@ -50,7 +50,7 @@ FROM marketing_data<br>
 GROUP BY "Country"<br>
 ORDER BY SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") DESC;
 
-[TOTAL SPEND PER PRODUCT PER COUNTRY]<br>             
+[TOTAL SPEND PER PRODUCT PER COUNTRY]<br>
 SELECT "Country", SUM("AmtLiq") AS "Total AmtLiq Spend", SUM("AmtVege") AS "Total AmtVege Spend",<br> 
 SUM ("AmtNonVeg") AS "Total AmtNonVeg Spend", SUM("AmtPes") AS "Total AmtPes Spend",<br> 
 SUM("AmtChocolates") AS "Total AmtChocolates Spend", SUM("AmtComm") AS "Total AmtComm Spend"<br>
