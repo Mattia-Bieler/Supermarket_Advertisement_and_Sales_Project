@@ -9,24 +9,6 @@ The formula, __=YEAR(NOW())-[@[Year_Birth]]__, generated the customer ages. Howe
 
 As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for __‘NULL’ values and duplicates__, which did not exist. To combine both files, I used __‘JOIN’__ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found in the table below. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
 
-| Description | Syntaxes |
-| -------- | -------- |
-| __TO FIND NULL (EXAMPLE)__ |SELECT "ID", "Bulkmail_ad", "Twitter_ad", "Instagram_ad", "Facebook_ad", “Brochure_ad”
-FROM ad_data
-WHERE "Twitter_ad" IS NULL; |
-| __TO FIND DUPLICATES (EXAMPLE)__ | SELECT "ID", COUNT(*) AS "Row Count"
-FROM public.marketing_data
-GROUP BY "ID"
-ORDER BY "Row Count" DESC; |
-| __TOTAL SPEND PER COUNTRY__ | SELECT "Country", SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") AS "Total Spend"
-FROM marketing_data
-GROUP BY "Country"
-ORDER BY SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") DESC; |
-| __Relational Database Management__  | Foundations of database design, conceptual and logical design, and creating entity-relationship diagrams. |
-| __SQL__ | Foundations of SQL, creating databases, retrieving data, writing queries, updating databases, and data cleaning with SQL. |
-| __Analysing Data with SQL__ | Working with multiple tables, executing joins, querying multiple tables, and increasing retrieval speed using indexing. |
-| __Data Ethics__ | Working with sensitive data and GDPR. |
-
 ## Dashboard Design and Development
 [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
 ![Dashboard](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/efc4d162-9919-4a06-9ca3-fd6c3a5bb028)
