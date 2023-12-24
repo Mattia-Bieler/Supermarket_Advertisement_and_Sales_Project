@@ -34,6 +34,7 @@ All countries spent the most on alcohol and then meat. This was also true when l
 
 ## Apendix
 [TO FIND NULL (EXAMPLE)]
+
 SELECT "ID", "Bulkmail_ad", "Twitter_ad", "Instagram_ad", "Facebook_ad", “Brochure_ad”
 FROM ad_data
 WHERE "Twitter_ad" IS NULL;
