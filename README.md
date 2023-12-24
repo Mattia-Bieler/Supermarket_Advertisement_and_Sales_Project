@@ -32,6 +32,10 @@ An interesting insight is that although Spain has the highest total spend by ove
 
 All countries spent the most on alcohol and then meat. This was also true when looking at product popularity (average spend) per country or marital status and largely true for education. Only customers with a basic education spent more on commodities than alcohol and meat, likely due to having lower salaries, as demonstrated by their low average spend per product in comparison to other education types.
 
+https://drive.google.com/file/d/1Nl3qNffAw5s65w8Ympi0bn4aiUOJf8DP/view?usp=sharing 
+
+
+
 ## Appendix
 __[TO FIND NULL (EXAMPLE)]__ <br>
 SELECT "ID", "Bulkmail_ad", "Twitter_ad", "Instagram_ad", "Facebook_ad", “Brochure_ad”<br>
