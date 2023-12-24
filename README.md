@@ -10,7 +10,7 @@ The formula, __=YEAR(NOW())-[@[Year_Birth]]__, generated the customer ages. Howe
 As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for __‘NULL’ values and duplicates__, which did not exist. To combine both files, I used __‘JOIN’__ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found in the appendix. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
 
 ## Dashboard Design and Development
-[View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
+[VIEW DASHBOARD ON TABLEAU PUBLIC](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
 ![Dashboard](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/efc4d162-9919-4a06-9ca3-fd6c3a5bb028)
 
 The base colour chosen for the dashboard visualisations is blue, as demonstrated by barplot, scatterplot, and table. The other three visualisations, which are not blue, have legends to indicate each component of the graph. Of these, two have the same colour scheme, as they present the same product types.
@@ -32,7 +32,7 @@ An interesting insight is that although Spain has the highest total spend by ove
 
 All countries spent the most on alcohol and then meat. This was also true when looking at product popularity (average spend) per country or marital status and largely true for education. Only customers with a basic education spent more on commodities than alcohol and meat, likely due to having lower salaries, as demonstrated by their low average spend per product in comparison to other education types.
 
-[__CLICK HERE TO WATCH__](https://drive.google.com/file/d/1Nl3qNffAw5s65w8Ympi0bn4aiUOJf8DP/view?usp=sharing)
+[__CLICK HERE TO WATCH PRESENTATION__](https://drive.google.com/file/d/1Nl3qNffAw5s65w8Ympi0bn4aiUOJf8DP/view?usp=sharing)
 ![SPP](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/8bc2ee95-cc95-44a4-8962-3cf4888aed8d)
 
 ## Appendix
