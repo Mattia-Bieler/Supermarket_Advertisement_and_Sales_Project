@@ -7,7 +7,25 @@ The only spelling mistakes of the Excel marketing_data file were the column head
 
 The formula, __=YEAR(NOW())-[@[Year_Birth]]__, generated the customer ages. However, as customer registrations are only between 2012-2014, calculating the age from the current year might be incorrect. Using a __pivot table__ and bar chart, I was able to calculate and present the overall average age (53) and each marital statuses average age. Three customers had an uncommon age of over 120. As these ages did not impact the average age, I did not filter out these customers. However, I filtered out ‘YOLO’ and ‘Absurd’, as these marital statuses do not make sense. Surprisingly, ‘Divorced’, ‘Married’, ‘Single’ and ‘Together’ had average ages within a range of six years (50-56), illustrating that age is not a significant factor for marital status. Creating two __pivot tables__ and scatterplots, I was able to present the relationship between age and income in general, and more specifically for customers earning between $90,000-$100,000. I temporarily filtered out four visible outliers from the first scatterplot, as they made it difficult to analyse the graph. Adding a trendline to both scatterplots showed a slight income increase as age increases. 
 
-As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for __‘NULL’ values and duplicates__, which did not exist. To combine both files, I used __‘JOIN’__ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found above. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
+As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for __‘NULL’ values and duplicates__, which did not exist. To combine both files, I used __‘JOIN’__ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found in the table below. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
+
+| Description | Syntaxes |
+| -------- | -------- |
+| __TO FIND NULL (EXAMPLE)__ |SELECT "ID", "Bulkmail_ad", "Twitter_ad", "Instagram_ad", "Facebook_ad", “Brochure_ad”
+FROM ad_data
+WHERE "Twitter_ad" IS NULL; |
+| __TO FIND DUPLICATES (EXAMPLE)__ | SELECT "ID", COUNT(*) AS "Row Count"
+FROM public.marketing_data
+GROUP BY "ID"
+ORDER BY "Row Count" DESC; |
+| __TOTAL SPEND PER COUNTRY__ | SELECT "Country", SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") AS "Total Spend"
+FROM marketing_data
+GROUP BY "Country"
+ORDER BY SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") DESC; |
+| __Relational Database Management__  | Foundations of database design, conceptual and logical design, and creating entity-relationship diagrams. |
+| __SQL__ | Foundations of SQL, creating databases, retrieving data, writing queries, updating databases, and data cleaning with SQL. |
+| __Analysing Data with SQL__ | Working with multiple tables, executing joins, querying multiple tables, and increasing retrieval speed using indexing. |
+| __Data Ethics__ | Working with sensitive data and GDPR. |
 
 ## Dashboard Design and Development
 [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
