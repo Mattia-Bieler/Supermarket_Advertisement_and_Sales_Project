@@ -10,7 +10,7 @@ The formula, __=YEAR(NOW())-[@[Year_Birth]]__, generated the customer ages. Howe
 As I imported the cleaned marketing_data Excel file, no cleaning of the data was needed in SQL. For the ad_data CSV file, I simply used syntaxes to check for __‘NULL’ values and duplicates__, which did not exist. To combine both files, I used __‘JOIN’__ in my syntaxes. The syntaxes I used to explore the data and answer the questions can be found in the appendix. One thing that I noticed is a correlation between total spend per product per country and the number of successful social media conversions.
 
 ## Dashboard Design and Development
-[VIEW DASHBOARD ON TABLEAU PUBLIC](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
+[__VIEW DASHBOARD ON TABLEAU PUBLIC__](https://public.tableau.com/app/profile/mattia.bieler/viz/SupermarketProjectDashboard/2MarketDashboard)
 ![Dashboard](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/efc4d162-9919-4a06-9ca3-fd6c3a5bb028)
 
 The base colour chosen for the dashboard visualisations is blue, as demonstrated by barplot, scatterplot, and table. The other three visualisations, which are not blue, have legends to indicate each component of the graph. Of these, two have the same colour scheme, as they present the same product types.
