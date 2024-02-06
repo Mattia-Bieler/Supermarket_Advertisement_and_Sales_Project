@@ -44,24 +44,24 @@ All countries spent the most on alcohol and then meat. This was also true when l
 ![SPP](https://github.com/Mattia-Bieler/Supermarket_Customer_Information_Project/assets/132078605/8bc2ee95-cc95-44a4-8962-3cf4888aed8d)
 
 ## Appendix
-__[TO FIND NULL (EXAMPLE)]__ <br>
+__-- To find NULL (example).__ <br>
 SELECT "ID", "Bulkmail_ad", "Twitter_ad", "Instagram_ad", "Facebook_ad", “Brochure_ad”<br>
 FROM ad_data<br>
 WHERE "Twitter_ad" IS NULL;
 
-__[TO FIND DUPLICATES (EXAMPLE)]__ <br>
+__-- To find duplicates (example).__ <br>
 SELECT "ID", COUNT(*) AS "Row Count"<br>
 FROM public.marketing_data<br>
 GROUP BY "ID"<br>
 ORDER BY "Row Count" DESC;
 
-__[TOTAL SPEND PER COUNTRY]__ <br>
+__-- Total spend per country.__ <br>
 SELECT "Country", SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") AS "Total Spend"<br>
 FROM marketing_data<br>
 GROUP BY "Country"<br>
 ORDER BY SUM("AmtLiq" + "AmtVege" + "AmtNonVeg" + "AmtPes" + "AmtChocolates" + "AmtComm") DESC;
 
-__[TOTAL SPEND PER PRODUCT PER COUNTRY]__ <br>
+__-- Total spend per product per country.__ <br>
 SELECT "Country", SUM("AmtLiq") AS "Total AmtLiq Spend", SUM("AmtVege") AS "Total AmtVege Spend",<br> 
 SUM ("AmtNonVeg") AS "Total AmtNonVeg Spend", SUM("AmtPes") AS "Total AmtPes Spend",<br> 
 SUM("AmtChocolates") AS "Total AmtChocolates Spend", SUM("AmtComm") AS "Total AmtComm Spend"<br>
@@ -69,7 +69,7 @@ FROM marketing_data<br>
 GROUP BY "Country"<br>
 ORDER BY "Country" ASC;
 
-__[SOCIAL MEDIA EFFECTIVENESS PER COUNTRY]__ <br>
+__-- Social media effectiveness per country.__ <br>
 SELECT md."Country", SUM(ad."Twitter_ad") AS "Twitter Effectiveness",<br>
 SUM(ad."Instagram_ad") AS "Instagram Effectiveness",<br>
 SUM(ad."Facebook_ad") AS "Facebook Effectiveness"<br>
@@ -79,7 +79,7 @@ ON md."ID" = ad."ID"<br>
 GROUP BY md."Country"<br>
 ORDER BY md."Country" ASC;
 
-__[SOCIAL MEDIA EFFECTIVENESS BY MARITAL STATUS]__ <br>
+__-- Social media effectiveness by marital status.__ <br>
 SELECT md."Marital_Status", SUM(ad."Twitter_ad") AS "Twitter Effectiveness",<br> 
 SUM(ad."Instagram_ad") AS "Instagram Effectiveness",<br> 
 SUM(ad."Facebook_ad") AS "Facebook Effectiveness"<br>
@@ -89,7 +89,7 @@ ON md."ID" = ad."ID"<br>
 GROUP BY md."Marital_Status"<br>
 ORDER BY md."Marital_Status" ASC;
 
-__[TOTAL SPEND PER PRODUCT PER COUNTRY WITH SOCIAL MEDIA EFFECTIVENESS]__ <br>
+__-- Total spend per product per country with social media effectiveness.__ <br>
 SELECT md."Country", SUM(md."AmtLiq") AS "Total AmtLiq Spend",<br> 
 SUM(md."AmtVege") AS "Total AmtVege Spend", SUM (md."AmtNonVeg") AS "Total AmtNonVeg Spend",<br> 
 SUM(md."AmtPes") AS "Total AmtPes Spend", SUM(md."AmtChocolates") AS "Total AmtChocolates Spend",<br> 
